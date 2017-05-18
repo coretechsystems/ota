@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <!-- Your ROM Name -->
+  <RomName>AptOS</RomName>
+  <VersionName>2.4-EXPLORER build AAT1R-17w1d1b</VersionName>
+  <!-- Your ROM version. MUST be incrementally larger than previous versions -->
+  <!-- Do NOT use letters in your version number. Integers only -->
+  <!-- Previous version will be read from the build.prop -->
+  <VersionNumber type="integer">4</VersionNumber>
+  <!-- Linking to your files -->
+    <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
+    <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
+    <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
+    <!-- HTTP link will open a web page -->
+    <!-- Direct Link overrides HTTP link -->
+  <DirectUrl><![CDATA[http://qc4.androidfilehost.com/dl/LWiH1NS_c2Qd_4tDHedoPw/1493227133/745425885120726670/BEGONIAXP-klteatt-17w1d1b-SYSDLUP.zip]]></DirectUrl>
+  <HttpUrl nil="true"/>
+  <!-- What version are you issuing? -->
+  <Android>5.0</Android>
+  <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
+  <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
+  <CheckMD5>9ecd0533374aa960112b444c3c95af20</CheckMD5>
+  <!-- The filesize of your ROM -->
+  <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
+  <FileSize type="integer">587608064</FileSize>
+  <!-- Developer or Team name. You can put anything here, even a couple of names -->
+  <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
+  <Developer>AptLogic</Developer>
+  <!-- Your ROM or Developer Website. Can be a personal site or your XDA/forum thread -->
+  <!-- OPTIONAL: Enter <Website nil="true" /> to hide this -->
+  <WebsiteURL>https://goo.gl/BZbiL7</WebsiteURL>
+  <!-- Your Donate URL -->
+  <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
+  <DonateURL nil="true" />
+  <!-- Put the changelog here... Use Markdown to format it -->
+  <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
+  <Changelog>### Changes can be found on GitHub.
+  Welcome to the AptOS Explorer program!</Changelog>
+</ROM>
