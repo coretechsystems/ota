@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>Xposed</name> <!-- The name, simples -->
+            <description>The Xposed framework and installer</description> <!-- You can use markdown here if you want -->
+            <updated-at>2017-06-12</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>5963776</size> <!-- filesize in bytes -->
+            <download-link>
+            https://coretech.tk/ota/aptos-g900a/addonlib/Xposed.zip
+            </download-link>
+        </addon>
+</hash>

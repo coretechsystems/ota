@@ -2,27 +2,27 @@
 <ROM>
   <!-- Your ROM Name -->
   <RomName>AptOS</RomName>
-  <VersionName>2.4-EXPLORER build AAT1R-17w1d1b</VersionName>
+  <VersionName>2.4-EXPLORER build AAT2S-27w2d1b</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">4</VersionNumber>
+  <VersionNumber type="integer">5</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[http://qc4.androidfilehost.com/dl/LWiH1NS_c2Qd_4tDHedoPw/1493227133/745425885120726670/BEGONIAXP-klteatt-17w1d1b-SYSDLUP.zip]]></DirectUrl>
+  <DirectUrl><![CDATA[---]]></DirectUrl>
   <HttpUrl nil="true"/>
   <!-- What version are you issuing? -->
   <Android>5.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>9ecd0533374aa960112b444c3c95af20</CheckMD5>
+  <CheckMD5>63ad4aba5595c7d9bfd891629c2fc131</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">587608064</FileSize>
+  <FileSize type="integer">588410880</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>AptLogic</Developer>
@@ -35,5 +35,9 @@
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changes can be found on GitHub.
-  Welcome to the AptOS Explorer program!</Changelog>
+  Welcome to the AptOS Explorer program! Please be sure to make a backup of your data, as this installer is still in testing and *may* break.</Changelog>
 </ROM>
+<AddonCount>1</AddonCount>
+<AddonsURL>
+https://coretech.tk/ota/aptos-g900a/explorer/addons.xml
+</AddonsURL>
