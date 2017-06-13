@@ -2,27 +2,27 @@
 <ROM>
   <!-- Your ROM Name -->
   <RomName>AptOS</RomName>
-  <VersionName>2.4-EXPLORER build AAT2T-27w2d2b</VersionName>
+  <VersionName>2.4-EXPLORER build AAT2U-27w3d1b</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">6</VersionNumber>
+  <VersionNumber type="integer">7</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[https://github.com/coretechsystems/AptOS-G900A/releases/download/27w2d2b/BEGONIAXP-klteatt-27w2d2b.zip]]></DirectUrl>
+  <DirectUrl><![CDATA[https://github.com/coretechsystems/AptOS-G900A/releases/download/27w3d1b/BEGONIAXP-klteatt-27w3d1b-OTA.zip]]></DirectUrl>
   <HttpUrl nil="true"/>
   <!-- What version are you issuing? -->
   <Android>5.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>e70e88d8ffc4fb19d0a763c9ed2c34ca</CheckMD5>
+  <CheckMD5>740D81050A4E086C29DE30163C060C32</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">589316096</FileSize>
+  <FileSize type="integer">34959620</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>AptLogic</Developer>
@@ -35,7 +35,7 @@
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changes can be found on GitHub.
-  Welcome to the AptOS Explorer program! Please be aware that this installer will wipe ALL data during installation.</Changelog>
+  Welcome to the AptOS Explorer program! This OTA hotfix will not wipe any data (except maybe screen locks and WiFi passwords).</Changelog>
   
   <AddonCount>1</AddonCount>
 <AddonsURL>
