@@ -35,5 +35,5 @@
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changes can be found on GitHub.
-  Welcome to the AptOS Explorer program! This OTA update WILL wipe your data!!!</Changelog>
+  Welcome to the AptOS Explorer program!</Changelog>
 </ROM>
