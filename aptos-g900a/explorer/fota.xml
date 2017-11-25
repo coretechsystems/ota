@@ -2,27 +2,27 @@
 <ROM>
   <!-- Your ROM Name -->
   <RomName>AptOS</RomName>
-  <VersionName>2.5-EXPLORER build AAT3A-49w1d1b</VersionName>
+  <VersionName>2.5-EXPLORER build AAT3B-50w7d1b</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">11</VersionNumber>
+  <VersionNumber type="integer">12</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[https://github.com/coretechsystems/AptOS-G900A/releases/download/49w1d1b/BEGONIAXP-klteatt-49w1d1b-OTA.zip]]></DirectUrl>
+  <DirectUrl><![CDATA[https://github.com/coretechsystems/AptOS-G900A/releases/download/50w7d1b/BEGONIAXP-klteatt-50w7d1b-OTA.zip]]></DirectUrl>
   <HttpUrl nil="true"/>
   <!-- What version are you issuing? -->
   <Android>5.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>CC456D67D3B30CCEAB23378A2F499181</CheckMD5>
+  <CheckMD5>BD94E43C6D61CCF0520637A786FFEB12</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">19339844</FileSize>
+  <FileSize type="integer">277366451</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>AptLogic, CoreTech Systems</Developer>
@@ -35,5 +35,5 @@
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changes can be found on GitHub.
-  Welcome to the AptOS Explorer program!</Changelog>
+  Welcome to the AptOS Explorer program! OTA Update will not wipe device.</Changelog>
 </ROM>
