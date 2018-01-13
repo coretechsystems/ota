@@ -36,4 +36,9 @@
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog>### Changes can be found on GitHub.
   Welcome to the AptOS Explorer program! OTA Update will not wipe device.</Changelog>
+  
+  <AddonCount>1</AddonCount>
+-<AddonsURL>
+-https://coretech.tk/ota/aptos-g900a/explorer/addons.xml
+-</AddonsURL>
 </ROM>
